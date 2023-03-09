@@ -3,24 +3,24 @@
     padding: 0;
     text-decoration: none;
     list-style-type: none;
-    font-family: sans-serif;
+    font-family: Geneva, Verdana, sans-serif;
 }
-
+/* 
 body .simetry_red{
     border: solid 1px;
     position: absolute;
     left: 5%;
     height: 700px;
-    color: white;
-}
+    color:red;
+} */
 
     /* page block simetry */
-.simetry_blue{
+/* .simetry_blue{
     border: solid 1px;
     position: absolute;
     left: 63.9%;
     height: 700px;
-    color: white;
+    color: blue;
 }
 
 .simetry_green{
@@ -28,7 +28,7 @@ body .simetry_red{
     position: absolute;
     left: 94.9%;
     height: 1000px;
-    color: white;
+    color: green;
 }
 
 .simetry_purple{
@@ -36,8 +36,8 @@ body .simetry_red{
     position: absolute;
     top: 438px;
     width: 100%;
-    color: white;
-}
+    color: purple;
+} */
 
 /* header start */
 header .head{
@@ -49,115 +49,124 @@ header .head{
 
 .head ul{
     display: flex;
-    position: relative;
-    left: 5.1%;
+    margin-left: 5.1%;
 }
 
 .head ul li{
-    padding: 20px 20px 20px 0px;
+    padding: 0px 20% 1px 0%;
 }
 
 .head ul li a{
     color: gray;
 }
 
-.icon{
-    position: relative;
-    left: 4.9%;
-    padding: 20px 20px 20px 0px;
+.icon-menu{
+    width: 90.2%;
+    margin: auto;
+    display: flex;
     justify-content: space-between;
-    display: flex;
 }
 
-.icon ul{
-    display: flex;
-    position: relative;
-    right: 7%;
+.icon{
+    padding: 10px 0px 10px 0px;
 }
 
-.icon ul li a{
+.menu ul{
+    display: flex;
+    margin-top: 1.5%;
+}
+
+.menu ul li a{
     color: black;
-    padding: 20px;
+    padding: 10px 5px 20px 5px;
+    border-radius: 0px 0px 5px 5px ;
 }
 
-.icon ul li a:hover{
-    background-color: black;
-    color: white;
+.menu ul li a:hover{
+    background-color: rgb(245, 176, 48);
+    color: black;
+    border-radius: 0px 0px 5px 5px;
 }
 /* header end */
 
-/* info box start */
-.info_box{
-    width: 89.6%;
+/* content box start */
+.content{
+    width: 89.8%;
     margin: auto;
-    height: 460px;
+    height: 600px;
     justify-content: space-between;
     display: flex;
 }
 
-.big_box{
+.left{
+    height: 100%;
+    width: 60%;
+}
+
+
+.big-box{
+    height: 59%;
+    width: 100%;
     background-image: url(image/big_box.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    width: 63.9%;
-    height: 66%;
+    background-size: cover;
 }
 
-.right_box{
-    width: 34.4%;
-    height: 66%;
-}
-
-.box_1{
-    background-image: url(image/box_1.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    height: 48%;
-    width: 100%; 
-}
-
-.box_2{
-    background-image: url(image/box_2.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    height: 48.2%;
+.under{
+    height: 38.5%;
     width: 100%;
-    margin-top: 3.1%;
-}
-
-.under_box{
-    position: absolute;
-    height: 145px;
-    width: 57.1%;
-    top: 450px;
-    display: flex;
+    margin-top: 1.8%;
     justify-content: space-between;
+    display: flex;
 }
 
-.under_left{
-    background-image: url(image/under_left.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    height: 100%;
-    width: 49%;
-}
-
-.under_center{
+.under-left-box{
+    height: 99%;
+    width: 48.5%;
+    color: red;
+    position: relative;
     background-image: url(image/under_center.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    height: 100%;
-    width: 49%;
+    background-size: cover;
 }
 
-.under_right{
-    background-image: url(image/under_right.jpg);
+.under-right-box{
+    height: 100%;
+    width: 48.5%;
+    color: blue;
+    background-image: url(image/box_2.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    height: 145px;
-    width: 30.8%;
-    position: absolute;
-    top: 450px;
-    left: 64.05%;
+    background-size: cover;
 }
-/* info box end */
+
+.right{
+    height: 100%;
+    width: 38.5%;
+}
+
+.box-1{
+    height: 38.5%;
+    width: 100%;
+    background-image: url(image/box_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.binance{
+    height: 18%;
+    width: 100%;
+    margin-top: 2.6%;
+    background-image: url(image/binance.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box-2{
+    height: 38.5%;
+    width: 100%;
+    margin-top: 2.6%;
+    background-image: url(image/under_left.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* content box end */
