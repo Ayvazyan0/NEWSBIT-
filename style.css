@@ -69,14 +69,6 @@ header .head{
     display: flex;
 }
 
-.icon h1{
-    color: rgb(245, 176, 48);
-}
-
-.icon h1 span{
-    color: black;
-}
-
 .icon ul{
     display: flex;
     position: relative;
