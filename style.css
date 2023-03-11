@@ -5,46 +5,12 @@
     list-style-type: none;
     font-family: Geneva, Verdana, sans-serif;
 }
-/* 
-body .simetry_red{
-    border: solid 1px;
-    position: absolute;
-    left: 5%;
-    height: 700px;
-    color:red;
-} */
-
-    /* page block simetry */
-/* .simetry_blue{
-    border: solid 1px;
-    position: absolute;
-    left: 63.9%;
-    height: 700px;
-    color: blue;
-}
-
-.simetry_green{
-    border: solid 1px;
-    position: absolute;
-    left: 94.9%;
-    height: 1000px;
-    color: green;
-}
-
-.simetry_purple{
-    border: solid 1px;
-    position: absolute;
-    top: 438px;
-    width: 100%;
-    color: purple;
-} */
 
 /* header start */
 header .head{
     background-color: black;
     display: flex;
     justify-content: space-between;
-    position: relative;
 }
 
 .head ul{
@@ -65,7 +31,6 @@ header .head{
     margin: auto;
     display: flex;
     justify-content: space-between;
-    
 }
 
 .icon{
@@ -84,13 +49,14 @@ header .head{
 .menu ul li a{
     color: black;
     padding: 10px 5px 20px 5px;
-    border-radius: 0px 0px 5px 5px ;
+    background-color: rgb(245, 176, 48);
+    border: none;
 }
 
 .menu ul li a:hover{
-    background-color: rgb(245, 176, 48);
-    color: black;
-    border-radius: 0px 0px 5px 5px;
+    background-color: black;
+    color: rgb(245, 176, 48);
+    border: none;
 }
 /* header end */
 
@@ -129,7 +95,6 @@ header .head{
     height: 99%;
     width: 48.5%;
     color: red;
-    position: relative;
     background-image: url(image/under_center.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -160,7 +125,7 @@ header .head{
 .binance{
     height: 18%;
     width: 100%;
-    margin-top: 2.6%;
+    margin-top: 3.2%;
     background-image: url(image/binance.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -169,7 +134,7 @@ header .head{
 .box-2{
     height: 38.5%;
     width: 100%;
-    margin-top: 4%;
+    margin-top: 3%;
     background-image: url(image/under_left.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -187,6 +152,19 @@ header .head{
     }
 
     .content{
-        display: none;
+        display: block;
+        width: 89.8%;
+    }
+
+    .left{
+        width: 100%;
+    }
+
+    .right{
+        width: 100%;
+    }
+
+    .big-box h1{
+        margin-bottom: 20px;
     }
 }
